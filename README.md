@@ -37,7 +37,10 @@ PROJECT_NAME=my_project
 カスタム項目一覧はこちらの公式ソースコードからご確認いただけます。→ [nuxt.js公式リポジトリ内、prompts.js](https://github.com/nuxt/create-nuxt-app/blob/master/packages/create-nuxt-app/lib/prompts.js) <br />
 --answers のパラメータをJSON形式で指定して、ご自分のご希望に合わせて下さい。
 <br /><br />
-`Makefile>docker-compose>bash -c と入れ子になっているためエスケープが若干複雑ですみません。基本的にベースサンプルをコピペ＆編集して頂ければ大丈夫かとは思います。`
+
+※ エスケープが若干複雑ですみません。<br />
+`Makefile` > `docker-compose` > `bash -c` と入れ子になっているので…<br />
+基本的にサンプルをコピペ＆編集して頂ければ大丈夫かとは思います。
 
 ```makefile
 ...
